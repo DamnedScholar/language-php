@@ -26,7 +26,7 @@
         'beginCaptures':
           '0':
             'name': 'punctuation.whitespace.embedded.leading.php'
-        'end': '(?!\\G)(\\s*)?'
+        'end': '(?!\\G)(\\s*$\\n)?'
         'endCaptures':
           '0':
             'name': 'punctuation.whitespace.embedded.trailing.php'
