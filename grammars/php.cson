@@ -22,11 +22,11 @@
   'text.html.php - (meta.embedded | meta.tag), L:text.html.php meta.tag, L:source.js.embedded.html':
     'patterns': [
       {
-        'begin': '(^\\s*)(?=<\\?(?![^?]*\\?>))'
+        'begin': '(^\\s*)(?=<\\?)'
         'beginCaptures':
           '0':
             'name': 'punctuation.whitespace.embedded.leading.php'
-        'end': '(?!\\G)(\\s*$\\n)?'
+        'end': '(?!\\G)(\\s*)?'
         'endCaptures':
           '0':
             'name': 'punctuation.whitespace.embedded.trailing.php'
